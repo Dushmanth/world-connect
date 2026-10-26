@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Connect</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #eaf4ff;
+      padding: 60px 20px;
+    }
+    h1 { color: #1769aa; }
+    p { font-size: 18px; }
+    button {
+      padding: 12px 24px;
+      background: #1769aa;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to World Connect!</h1>
+  <p>Connecting people around the world.</p>
+  <button onclick="alert('Welcome to World Connect!')">
+    Get Started
+  </button>
+</body>
+</html>
